@@ -57,6 +57,18 @@ color: white;
     /* min-width: 50px; */
   
 }
+.featcontent img {
+    width: 120px; /* Установите желаемую ширину */
+    height: 120px; /* Установите желаемую высоту */
+    object-fit: contain; /* Масштабирует изображение, сохраняя пропорции */
+    display: block; /* Убирает лишние отступы вокруг изображения */
+    margin: 0 auto; /* Центрирует изображение */
+}
+
+.featcontent {
+    text-align: center; /* Центрирует содержимое */
+    padding: 10px; /* Добавляет отступы */
+}
 
 .featwrap {
     max-width: 1400px;
