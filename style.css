@@ -65,11 +65,13 @@ color: white;
 }
 
 .featcontent img {
-    width: 100%; /* Изображение займёт весь контейнер */
-    max-width: 200px; /* Максимальная ширина для адаптивности */
-    height: 200px; /* Задайте одинаковую высоту для всех */
+    width: 150px; /* Ширина изображения */
+    height: 150px; /* Высота изображения */
     object-fit: contain; /* Масштабирует изображение, сохраняя пропорции */
+    display: block;
+    margin: 0 auto;
 }
+
 
 .featwrap {
     max-width: 1400px;
