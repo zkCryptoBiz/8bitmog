@@ -15,10 +15,8 @@ html, body {
 }
 
 @font-face {
-    font-family: 'kong'; /* Название шрифта */
+    font-family: 'kong'; 
     src: url('kongtext.ttf') format('kong');
-    font-weight: normal; /* Укажите вес: normal, bold */
-    font-style: normal;  /* Укажите стиль: normal, italic */
 }
 
 
