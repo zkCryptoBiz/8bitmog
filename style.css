@@ -15,10 +15,9 @@ html, body {
 }
 
 @font-face {
-    font-family: 'kong'; 
-    src: url('kongtext.ttf') format('truetype');
-}
-
+    font-family: quinn;
+    src: url(ByteBounce.ttf);
+  }
 
 
 .marquee-content h1 {
@@ -57,21 +56,6 @@ color: white;
     /* min-width: 50px; */
   
 }
-.featcontent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.featcontent img {
-    width: 150px; /* Ширина изображения */
-    height: 150px; /* Высота изображения */
-    object-fit: contain; /* Масштабирует изображение, сохраняя пропорции */
-    display: block;
-    margin: 0 auto;
-}
-
 
 .featwrap {
     max-width: 1400px;
@@ -157,7 +141,7 @@ background-color: #0095ff;
     /* margin-left: 5vw;
     margin-right: 5vw; */
     overflow-x: hidden!important;
-    font-family: kong;
+    font-family: quinn;
     font-weight: lighter;
     letter-spacing: 2px;
     background-size: cover;
@@ -914,7 +898,7 @@ strong {
   -webkit-backdrop-filter: blur(25px);
   background-position: center;
   
-    font-family: kong;
+    font-family: quinn;
   width: auto;
   
   
@@ -954,12 +938,12 @@ strong {
   backdrop-filter: blur(65px);
   -webkit-backdrop-filter: blur(65px);
   
-      font-family: kong;
+      font-family: quinn;
     font-size: 15pt;
   }
   .maintext{
       text-align: center;
-      font-family: kong;
+      font-family: quinn;
     text-decoration: none;
     font-size: 30px;
 
@@ -974,7 +958,7 @@ strong {
   }
   
   #lorem{
-        font-family: kong;
+        font-family: quinn;
       font-size: 20px;
     text-align: center;
     color: white;
@@ -982,7 +966,7 @@ strong {
     /* text-shadow: 1px 1px #39bded; */
   }
   #popupfoot{
-        font-family: kong;
+        font-family: quinn;
       font-size: 16pt;
     padding: 10px 20px;
   }
