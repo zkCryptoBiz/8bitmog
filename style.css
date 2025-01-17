@@ -16,7 +16,7 @@ html, body {
 
 @font-face {
     font-family: 'kong'; 
-    src: url('kongtext.ttf') format('kong');
+    src: url('kongtext.ttf') format('truetype');
 }
 
 
