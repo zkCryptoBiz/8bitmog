@@ -15,9 +15,12 @@ html, body {
 }
 
 @font-face {
-    font-family: quinn;
-    src: url(ByteBounce.ttf);
-  }
+    font-family: 'kong'; /* Название шрифта */
+    src: url('kongtext.ttf') format('kong');
+    font-weight: normal; /* Укажите вес: normal, bold */
+    font-style: normal;  /* Укажите стиль: normal, italic */
+}
+
 
 
 .marquee-content h1 {
@@ -141,7 +144,7 @@ background-color: #0095ff;
     /* margin-left: 5vw;
     margin-right: 5vw; */
     overflow-x: hidden!important;
-    font-family: quinn;
+    font-family: kong;
     font-weight: lighter;
     letter-spacing: 2px;
     background-size: cover;
@@ -898,7 +901,7 @@ strong {
   -webkit-backdrop-filter: blur(25px);
   background-position: center;
   
-    font-family: quinn;
+    font-family: kong;
   width: auto;
   
   
@@ -938,12 +941,12 @@ strong {
   backdrop-filter: blur(65px);
   -webkit-backdrop-filter: blur(65px);
   
-      font-family: quinn;
+      font-family: kong;
     font-size: 15pt;
   }
   .maintext{
       text-align: center;
-      font-family: quinn;
+      font-family: kong;
     text-decoration: none;
     font-size: 30px;
 
@@ -958,7 +961,7 @@ strong {
   }
   
   #lorem{
-        font-family: quinn;
+        font-family: kong;
       font-size: 20px;
     text-align: center;
     color: white;
@@ -966,7 +969,7 @@ strong {
     /* text-shadow: 1px 1px #39bded; */
   }
   #popupfoot{
-        font-family: quinn;
+        font-family: kong;
       font-size: 16pt;
     padding: 10px 20px;
   }
