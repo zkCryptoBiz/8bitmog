@@ -57,18 +57,18 @@ color: white;
     /* min-width: 50px; */
   
 }
-.featcontent img {
-    width: 150px; /* Увеличьте ширину */
-    height: auto; /* Сохраняйте пропорции */
-    object-fit: contain; /* Обеспечивает масштабирование внутри контейнера */
-    display: block;
-    margin: 0 auto;
+.featcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-
-.featcontent {
-    text-align: center; /* Центрирует содержимое */
-    padding: 10px; /* Добавляет отступы */
+.featcontent img {
+    width: 100%; /* Изображение займёт весь контейнер */
+    max-width: 200px; /* Максимальная ширина для адаптивности */
+    height: 200px; /* Задайте одинаковую высоту для всех */
+    object-fit: contain; /* Масштабирует изображение, сохраняя пропорции */
 }
 
 .featwrap {
